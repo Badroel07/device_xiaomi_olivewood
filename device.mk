@@ -76,6 +76,10 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor
 
+
+# Blur
+TARGET_USES_BLUR := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \

@@ -18,13 +18,13 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Inherit some LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/corvus/config/common.mk)
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_olivewood
+PRODUCT_NAME := corvus_olivewood
 PRODUCT_DEVICE := olivewood
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8A/8A Dual
